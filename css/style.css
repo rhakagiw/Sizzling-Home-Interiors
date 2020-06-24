@@ -1,0 +1,186 @@
+/*=================================================
+font-family: 'Dosis', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Gloria Hallelujah', cursive;
+font-color:#212529; off black
+color:#a43a06; burnt orange
+color:#a8977b; taupe
+color:#2a190b;deep chocolate brown
+color:#d3c2b0;light taupe
+color:#1e263d;navy/blue
+color:#222222; grey/black
+color:#c35672; plum
+color:#5a6268; grey secondary
+
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#vesco-menu">
+        <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+        
+        
+        </button>
+        
+        <div class="collapse navbar-collapse" id="vesco-menu"><!--menu wrapper with collapse-->
+        <ul class="nav navbar-nav">
+   /*styling for toggle icon*/
+  /* .nav-menu{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5));
+    padding:30px;
+    transition:all .7s;
+}*/
+
+/*==================================================*/
+
+
+header{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/hero1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+/*==============================================NAVIGATION=============================*/
+.navbar-brand{
+    font-family: 'Shadows Into Light', cursive;  
+}
+
+.navbar-brand:first-letter{
+    font-size:7.5rem;
+    margin-right:10px;
+}
+/* Navigation*/
+
+.navbar{
+    padding:20px 0;
+    transition:all .5s ease-in-out;/*to make a smooth effect*/
+   }
+
+ 
+    a:hover{
+    color:#fff;
+}
+
+.btn-blue{
+    border-color:#c35672;
+    color:#c35672;;
+    }
+    
+    .btn-blue:hover,.btn-blue:focus {
+      background-color:#c35672;
+      color:#fff;
+    }
+
+
+
+.btn-back-to-top{  /*positions back to top button fixed to the right bottom of web page*/
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    font-size:22px;
+    padding:3px 15px;
+    border-radius:0;
+    display:none;/*makes button invisible*/
+  }
+
+a,
+a.nav-link,
+.nav-link{
+    color:#fff;
+}
+
+
+a.nav-link:hover{
+    color:#fff;
+}
+li.nav-item{
+    font-size:1.3rem;
+   }
+
+li.nav-item,
+.banner-heading ,  
+.btn-secondary{
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.menu-item{
+    font-size:13px;
+    letter-spacing:1px;
+    color:#eee;
+    transition:color .5s;
+}
+
+
+
+
+.line1, .line2, .line3{
+    width:23px;
+    height:3px;
+    margin:5px;
+   transition:all .4s;
+}
+
+.change .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .line2{
+    opacity:0;
+}
+
+.change .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.custom-navbar{
+    padding:5px 20px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.underline{
+    width:150px;
+    border:3px solid #c35672;
+    margin:auto;
+}
+
+
+
+/*======================= designs===========================*/
+
+.mt-6{
+    margin-top:5rem;
+}
+
+.mt-7{
+    margin-top:6rem;
+}
+
+.rounded{
+    box-shadow: 0 10px 15px rgb(0,0,0);
+    width:100%;
+    height:auto;
+    transform:scale(1.06);
+    transition:transform 0.5s;
+
+}
+
+li.list-inline-item{
+    font-family:'Dosis', sans-serif; 
+    font-size: 1.4rem;
+    line-height:1.6rem;
+    letter-spacing:0.2rem;
+}
+
+p{
+    font-family:'Dosis', sans-serif; 
+    font-size:1.2rem; 
+}
+
+footer{
+    background-color:#797a7d;
+    color:#fff;
+}
